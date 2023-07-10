@@ -1,11 +1,11 @@
 /* header styles */
 
-header {
+.banner {
     background-color: rgba(229, 84, 115, 0.10);
 }
 
 .banner {
-    padding: 100px 200px 200px 120px;
+    padding: 100px 200px 0px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +34,8 @@ body {
 
 }
 
-p {
+.head-p
+{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -62,3 +63,87 @@ p {
 
 
 }
+
+/* 2nd page frst section */
+.featured-flowers {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 0 10px; 
+  }
+ 
+  
+  .image-1 {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    overflow: hidden;
+    padding: 90px 70px 0px 70px;;
+  }
+  .image-2 {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    overflow: hidden;
+    padding: 90px 70px 0px 70px;
+  }
+  .image-3 {
+    width: 310px;
+    height: 428px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    
+    
+    padding: 90px 70px 0px 70px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 300px 300px 0px 0px;
+  }
+  
+  .image h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
