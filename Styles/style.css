@@ -204,51 +204,77 @@ body {
 
 /* hot deal */
 .hot-deal {
-    width: 1922px;
+    width: 100%;
     height: 620px;
-    flex-shrink: 0;
+    
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .featured-flowers {
+}
+
+.featured-flowers {
     text-align: center;
-    margin-bottom: 30px; 
-  }
-  
-  .featured-flowers h2 {
+    margin-bottom: 30px;
+}
+
+.featured-flowers h2 {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-  }
-  
-  .featured-flowers .highlight {
+}
+
+.featured-flowers .highlight {
     color: #E55473;
-  }
-  
-  .featured-flowers p {
+}
+
+.featured-flowers p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-  }
-  
-  .image8 {
+}
+
+.image8 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 186px;
-  }
-  
-  .image8 img {
+}
+
+.image8 img {
     width: auto;
     height: 100%;
-  }
+}
+
+/* instagram */
+.content {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.insta-p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+
+
+}
+
+.insta-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+  
+}
