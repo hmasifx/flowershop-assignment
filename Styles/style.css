@@ -27,15 +27,14 @@ body {
     color: #272727;
     font-family: Lato;
     font-size: 60px;
-    
+
     font-weight: 800;
     margin-bottom: 32px;
-    
+
 
 }
 
-.head-p
-{
+.head-p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -44,7 +43,11 @@ body {
     line-height: 30px;
 
 
+
+
 }
+
+
 
 .button-primary {
     border-radius: 8px;
@@ -68,37 +71,37 @@ body {
 .featured-flowers {
     text-align: center;
     margin-top: 50px;
-  }
-  
-  .content h2 {
+}
+
+.content h2 {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     line-height: normal;
-  }
-  
-  .content p {
+}
+
+.content p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-  }
-  
-  .images {
+}
+
+.images {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-  }
-  
-  .image {
+}
+
+.image {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin: 0 10px; 
-  }
- 
-  
-  .image-1 {
+    margin: 0 10px;
+}
+
+
+.image-1 {
     width: 310px;
     height: 428px;
     flex-shrink: 0;
@@ -108,9 +111,11 @@ body {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
     overflow: hidden;
-    padding: 90px 70px 0px 70px;;
-  }
-  .image-2 {
+    padding: 90px 70px 0px 70px;
+    ;
+}
+
+.image-2 {
     width: 310px;
     height: 428px;
     flex-shrink: 0;
@@ -121,8 +126,9 @@ body {
     background-color: rgba(5, 151, 160, 0.15);
     overflow: hidden;
     padding: 90px 70px 0px 70px;
-  }
-  .image-3 {
+}
+
+.image-3 {
     width: 310px;
     height: 428px;
     flex-shrink: 0;
@@ -131,19 +137,67 @@ body {
     justify-content: center;
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(71, 125, 17, 0.15);
-    
-    
+
+
     padding: 90px 70px 0px 70px;
-  }
-  
-  .image img {
+}
+
+.image img {
     width: 100%;
     height: auto;
     border-radius: 300px 300px 0px 0px;
-  }
-  
-  .image h3 {
+}
+
+.image h3 {
     margin-top: 10px;
     font-weight: bold;
     text-decoration: underline;
-  }
+}
+
+/* 3rd page section */
+
+.delivery {
+    width: 1400px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.delivery-images {
+    display: flex;
+    gap: 120px;
+    
+    align-items: center;
+}
+
+
+.delivery-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery-image .image-4,
+.delivery-image .image-5,
+.delivery-image .image-6 {
+    width: 88px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.delivery-image .image-4 img,
+.delivery-image .image-5 img,
+.delivery-image .image-6 img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
