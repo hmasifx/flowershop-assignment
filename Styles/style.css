@@ -290,15 +290,17 @@ body {
     padding-bottom: 200px;
     padding-top: 40px;
     margin-top: 50px;
-    
+
     justify-content: center;
     align-items: center;
-  
-   
-    
-    
-   
+
+
+
+
+
 }
+
+
 
 .email-input {
     width: 700px;
@@ -306,12 +308,12 @@ body {
     height: 45px;
 
 }
+
 /* footer section */
-.footer
-{
+.footer {
     text-align: center;
     margin-top: 50px;
-   background-color: black;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -319,53 +321,55 @@ body {
     color: #FFF;
     padding-top: 100px;
 }
-.insta-p1
-{color: #FFF;}
+
+.insta-p1 {
+    color: #FFF;
+}
 
 .highlight {
     color: #E55473;
-  }
+}
 
-  /* why to pick section */
+/* why to pick section */
 
-  .my-section {
+.my-section {
     display: flex;
     align-items: center;
-    background-color:  rgba(229, 84, 115, 0.10);
+    background-color: rgba(229, 84, 115, 0.10);
     ;
-    
+
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .my-section .why-image {
+}
+
+.my-section .why-image {
     width: 700px;
     height: auto;
     margin-left: 150px;
-    
-  }
-  
-  
-  
-  .my-section h2 {
+
+}
+
+
+
+.my-section h2 {
     font-size: 34px;
     margin: 0;
     margin-bottom: 10px;
     margin-right: 250px;
     color: #333;
-  }
-  
-  .my-section ul {
+}
+
+.my-section ul {
     list-style: none;
     margin-right: 250px;
-  }
-  
-  .my-section ul li {
+}
+
+.my-section ul li {
     margin-bottom: 20px;
     color: #666;
-  }
-  
-  .my-section ul li:before {
+}
+
+.my-section ul li:before {
     content: "";
     display: inline-block;
     width: 8px;
@@ -374,4 +378,4 @@ body {
     border-radius: 50%;
     margin-right: 5px;
     vertical-align: middle;
-  }
+}
