@@ -306,3 +306,22 @@ body {
     height: 45px;
 
 }
+/* footer section */
+.footer
+{
+    text-align: center;
+    margin-top: 50px;
+   background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 100px;
+    color: #FFF;
+    padding-top: 100px;
+}
+.insta-p1
+{color: #FFF;}
+
+.highlight {
+    color: #E55473;
+  }
