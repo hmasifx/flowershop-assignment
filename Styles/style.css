@@ -325,3 +325,53 @@ body {
 .highlight {
     color: #E55473;
   }
+
+  /* why to pick section */
+
+  .my-section {
+    display: flex;
+    align-items: center;
+    background-color:  rgba(229, 84, 115, 0.10);
+    ;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .my-section .why-image {
+    width: 700px;
+    height: auto;
+    margin-left: 150px;
+    
+  }
+  
+  
+  
+  .my-section h2 {
+    font-size: 34px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 250px;
+    color: #333;
+  }
+  
+  .my-section ul {
+    list-style: none;
+    margin-right: 250px;
+  }
+  
+  .my-section ul li {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .my-section ul li:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
