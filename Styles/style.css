@@ -206,7 +206,7 @@ body {
 .hot-deal {
     width: 100%;
     height: 620px;
-    
+
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -275,6 +275,34 @@ body {
     display: flex;
     justify-content: center;
     gap: 40px;
-   
+
+
+}
+
+/* latest deals */
+.latest-deals {
+    text-align: center;
+    margin-top: 100px;
+    background-image: url('../backimg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    margin-top: 50px;
+    
+    justify-content: center;
+    align-items: center;
   
+   
+    
+    
+   
+}
+
+.email-input {
+    width: 700px;
+
+    height: 45px;
+
 }
